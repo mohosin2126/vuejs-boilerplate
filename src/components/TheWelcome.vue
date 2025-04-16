@@ -71,7 +71,7 @@ const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
     <template #heading>Community</template>
 
     Got stuck? Ask your question on
-    <a href="https://chat.vuejs.org" target="_blank" rel="noopener">Vue Land</a>
+    <a href="https://chat.vuejs.org" target="_blank" rel="noopener" class="text-2xl text-red-400">Vue Land</a>
     (our official Discord server), or
     <a href="https://stackoverflow.com/questions/tagged/vue.js" target="_blank" rel="noopener"
       >StackOverflow</a
